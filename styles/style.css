@@ -36,7 +36,7 @@
   max-width: 240px;
   font-size: 18px;
   font-style: normal;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 .header__address {
@@ -93,6 +93,7 @@
   align-self: flex-start;
 }
 
+/* Центрируем текст "ТЕБЕ" */
 .aligned-text_center {
   align-self: center;
 }
@@ -136,8 +137,8 @@
 
 /* ========== СЕКЦИЯ ЛОТЫ ========== */
 .lots {
-  margin-top: 220px; /* Опускаем еще ниже */
-  margin-bottom: 180px;
+  margin-top: 220px;
+  margin-bottom: 150px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -172,7 +173,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
   height: 100%;
   padding: 48px 40px;
   background-size: cover;
@@ -206,7 +207,7 @@
 
 .card__text {
   font-size: 20px;
-  margin-top: auto; 
+  margin-top: auto;
 }
 
 .lots__look-more-link {
@@ -219,10 +220,10 @@
 /* ========== СЕКЦИЯ ОБ АУКЦИОНЕ ========== */
 .about {
   display: grid;
-  grid-template-columns: 240px 1fr; /* Уменьшили левую колонку, чтобы текст стал шире */
-  gap: 40px; /* Уменьшили gap для сдвига влево */
-  margin-top: 220px; /* Опускаем секцию еще ниже */
-  margin-bottom: 50px; /* Уменьшили расстояние до подвала */
+  grid-template-columns: 334px 1fr;
+  gap: 40px;
+  margin-top: 180px;
+  margin-bottom: 40px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -248,7 +249,7 @@
 }
 
 .about__title {
-  margin-top: 100px; 
+  margin-top: 100px;
   margin-bottom: 100px;
   font-size: 40px;
   text-transform: uppercase;
@@ -274,7 +275,7 @@
 .footer__address {
   max-width: 250px;
   margin-top: 40px;
-  line-height: 1.2; 
+  line-height: 1.1;
 }
 
 .footer__menu {
