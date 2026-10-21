@@ -157,7 +157,6 @@
   margin-bottom: 30px;
 }
 
-/* Эталонная ширина карточки */
 .lots__card-list-item {
   width: 334px;
   min-height: 596px;
@@ -220,8 +219,9 @@
 /* ========== СЕКЦИЯ ОБ АУКЦИОНЕ ========== */
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  gap: 50px;
+  /* Уменьшили левую колонку до 240px, чтобы правая стала шире */
+  grid-template-columns: 240px 1fr;
+  gap: 40px;
   margin-top: 180px;
   margin-bottom: 180px;
   margin-left: 50px;
