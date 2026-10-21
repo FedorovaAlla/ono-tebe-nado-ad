@@ -57,7 +57,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   min-height: 757px;
   padding: 50px;
   background-image: url('../images/cover.jpg');
@@ -86,7 +86,7 @@
   line-height: 1.1;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .aligned-text_left {
@@ -109,7 +109,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 60px;
 }
 
 .cover__description-text {
@@ -136,10 +135,7 @@
 
 /* ========== СЕКЦИЯ ЛОТЫ ========== */
 .lots {
-  margin-top: 180px;
-  margin-bottom: 180px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 180px 50px;
 }
 
 .lots__heading {
@@ -151,7 +147,7 @@
 
 .lots__card-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap; /* В задании сказано: обеспечьте перенос */
   gap: 25px;
   list-style: none;
   margin-bottom: 30px;
@@ -219,13 +215,10 @@
 /* ========== СЕКЦИЯ ОБ АУКЦИОНЕ ========== */
 .about {
   display: grid;
-  /* Уменьшили левую колонку до 240px, чтобы правая стала шире */
-  grid-template-columns: 240px 1fr;
-  gap: 40px;
-  margin-top: 180px;
-  margin-bottom: 180px;
-  margin-left: 50px;
-  margin-right: 50px;
+  /* В задании: "Левая колонка должна быть равна ширине карточки" (334px) */
+  grid-template-columns: 334px 1fr; 
+  gap: 50px;
+  margin: 180px 50px;
 }
 
 .about__logo {
