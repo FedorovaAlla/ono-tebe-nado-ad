@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 50px; /* Увеличили отступы шапки */
+  padding: 50px;
 }
 
 .header__links-list {
@@ -136,7 +136,10 @@
 
 /* ========== СЕКЦИЯ ЛОТЫ ========== */
 .lots {
-  margin: 200px 50px 220px; /* Значительно увеличили отступы, чтобы спустить ниже */
+  margin-top: 220px; /* Опускаем еще ниже */
+  margin-bottom: 180px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .lots__heading {
@@ -201,7 +204,6 @@
   text-transform: uppercase;
 }
 
-/* Выравниваем текст строго по нижнему краю */
 .card__text {
   font-size: 20px;
   margin-top: auto; 
@@ -217,9 +219,12 @@
 /* ========== СЕКЦИЯ ОБ АУКЦИОНЕ ========== */
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  gap: 50px;
-  margin: 0 50px 200px; 
+  grid-template-columns: 240px 1fr; /* Уменьшили левую колонку, чтобы текст стал шире */
+  gap: 40px; /* Уменьшили gap для сдвига влево */
+  margin-top: 220px; /* Опускаем секцию еще ниже */
+  margin-bottom: 50px; /* Уменьшили расстояние до подвала */
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .about__logo {
@@ -269,7 +274,7 @@
 .footer__address {
   max-width: 250px;
   margin-top: 40px;
-  line-height: 1.2; /* Уменьшенный интервал */
+  line-height: 1.2; 
 }
 
 .footer__menu {
