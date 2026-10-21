@@ -48,7 +48,7 @@
   border-bottom: 1px solid transparent;
 }
 
-.address__link:hover {
+.address__link_underlined {
   border-bottom: 1px solid currentColor;
 }
 
@@ -57,7 +57,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 757px;
   padding: 50px;
   background-image: url('../images/cover.jpg');
@@ -86,14 +86,13 @@
   line-height: 1.1;
   text-transform: uppercase;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .aligned-text_left {
   align-self: flex-start;
 }
 
-/* Центрируем текст "ТЕБЕ" */
 .aligned-text_center {
   align-self: center;
 }
@@ -110,7 +109,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 20px;
+  margin-top: 60px;
 }
 
 .cover__description-text {
@@ -137,8 +136,8 @@
 
 /* ========== СЕКЦИЯ ЛОТЫ ========== */
 .lots {
-  margin-top: 220px;
-  margin-bottom: 150px;
+  margin-top: 180px;
+  margin-bottom: 180px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -158,8 +157,9 @@
   margin-bottom: 30px;
 }
 
+/* Эталонная ширина карточки */
 .lots__card-list-item {
-  width: 320px;
+  width: 334px;
   min-height: 596px;
 }
 
@@ -221,9 +221,9 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  gap: 40px;
+  gap: 50px;
   margin-top: 180px;
-  margin-bottom: 40px;
+  margin-bottom: 180px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -296,6 +296,10 @@
 }
 
 .footer__menu-link_active {
+  text-decoration: underline;
+}
+
+.footer__menu-link_underlined {
   text-decoration: underline;
 }
 

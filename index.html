@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     
-    <!-- Подключаем стили -->
     <link rel="stylesheet" href="./fonts/fonts.css">
     <link rel="stylesheet" href="./styles/global.css">
     <link rel="stylesheet" href="./styles/style.css">
   </head>
   <body>
-    <!-- ШАПКА -->
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
@@ -38,9 +36,7 @@
       </address>
     </header>
 
-    <!-- ОСНОВНОЙ КОНТЕНТ -->
     <main>
-      <!-- Секция 1: Обложка -->
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="cover__title">
@@ -54,34 +50,36 @@
         </div>
       </section>
 
-      <!-- Секция 2: Лоты -->
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
+          <!-- Карточка 1 -->
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
-                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша жизнь, если бы вы просто встали и вышли из аудитории?</p>
+                <p class="card__text">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша жизнь, если бы вы просто встали и вышли из аудитории? Ведь это мог быть ваш единственный шанс стать великим режиссёром.</p>
               </article>
             </a>
           </li>
+          <!-- Карточка 2 -->
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
-                <p class="card__text">Объёмом почти в тысячу страниц. Иногда безлодно настолько детально, что кажется, что автор описывает вашу жизнь.</p>
+                <p class="card__text">Объёмом почти в тысячу страниц. Иногда безлодно настолько детально, что кажется, что автор описывает вашу жизнь. Читать её невыносимо скучно, но вы не сможете оторваться.</p>
               </article>
             </a>
           </li>
+          <!-- Карточка 3 -->
           <li class="lots__card-list-item">
             <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">Картина, которую повторит даже новичок</h3>
-                <p class="card__text">Ну, почти. Показали мастер-класс, как нарисовать шедевр за 15 минут. На самом деле, это было очень просто.</p>
+                <p class="card__text">Ну, почти. Показали мастер-класс, как нарисовать шедевр за 15 минут. На самом деле, это было очень просто. Но почему-то никто не смог повторить.</p>
               </article>
             </a>
           </li>
@@ -89,7 +87,6 @@
         <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
 
-      <!-- Секция 3: Об аукционе -->
       <section class="about">
         <div class="about__column">
           <div class="about__logo">
@@ -107,11 +104,10 @@
       </section>
     </main>
 
-    <!-- ПОДВАЛ -->
     <footer class="footer">
       <address class="address footer__address">
-        <a class="address__link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="address__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <a class="address__link address__link_underlined" href="tel:+99995555555">+9 999 555 5555</a>
+        <a class="address__link address__link_underlined" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="address__text">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
 
@@ -121,10 +117,10 @@
             <a class="footer__menu-link footer__menu-link_active" href="#0">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
+            <a class="footer__menu-link footer__menu-link_underlined" href="#0">посмотреть лоты</a>
           </li>
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link" href="#0">об аукционе</a>
+            <a class="footer__menu-link footer__menu-link_underlined" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
